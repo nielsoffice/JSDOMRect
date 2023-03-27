@@ -22,7 +22,8 @@ JSDOMRect Finding X and Y ordinance of element bounding with only visible viewpo
  btnID.addEventListener('click', function(e) {
 
    let _btnID    = btnID.getBoundingClientRect();
-   let _targetID = targetID.getBoundingClientRect();
+   let _targetID = targetID.getBoundingClientRect();  // the same as : let _targetID = e.target.getBoundingClientRect();
+ 
 
     console.log(_btnID);
     console.log('-------------DOM-------------');
