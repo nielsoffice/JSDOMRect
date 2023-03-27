@@ -33,6 +33,12 @@
   // Getting Coordinance  X and Y
   console.log(' X : ' + window.pageXOffset + ' Y : ' + window.pageYOffset);
   console.log(' X : ' + document.documentElement.clientWidth + ' Y : ' + document.documentElement.clientHeight);
+ 
+    window.scrollTo({ 
+      left: _targetID.left + window.pageXOffset,
+      top: _targetID.top + window.pageYOffset,
+      behavior : 'smooth'
+    }); 
 
   });
 
