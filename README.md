@@ -29,6 +29,10 @@
     console.log(_btnID);
     console.log('-------------DOM-------------');
     console.log(_targetID);
+ 
+  // Getting Coordinance  X and Y
+  console.log(' X : ' + window.pageXOffset + ' Y : ' + window.pageYOffset);
+  console.log(' X : ' + document.documentElement.clientWidth + ' Y : ' + document.documentElement.clientHeight);
 
   });
 
