@@ -1,5 +1,5 @@
 # JSDOMRect
-JSDOMRect Finding X and Y ordinance of element such also width and height and more... 
+JSDOMRect Finding X and Y ordinance of element bounding with only visible viewport or current display such also width and height and more... ... 
 
 
 ```HTML
