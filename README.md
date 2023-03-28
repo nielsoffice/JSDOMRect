@@ -3,6 +3,14 @@
 <br />Source: https://www.w3.org/TR/geometry-1/#DOMRect
 <br />Reference: https://javascript.info/coordinates
 
+<br />Detect JSDOMRect properties such X,Y,Top,Bottom by scroll base on browser from end of bookmarks next after seach domain NOT not by scroll bar.
+```JS
+ window.addEventListener("scroll", (event) => {
+    let scroll = this.scrollY;
+    console.log(scroll)
+ });
+```
+
 ```HTML
 <html>
 <head></head>
