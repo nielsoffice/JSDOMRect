@@ -5,6 +5,8 @@
 
 <br />Detect JSDOMRect properties such X,Y,Top,Bottom by scroll base on browser from end of bookmarks next after seach domain NOT not by scroll bar.
 ```JS
+ // In addition!, Keep in mind that "y" and "top" properties are base on [ browser from end of bookmarks next after seach domain NOT not by scroll bar
+ // from the top or begining of element! ] Element that shapes like Rectangle such div, p tag or simply all html tag if we apply style css.
  window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
     console.log(scroll)
